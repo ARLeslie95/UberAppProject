@@ -3,6 +3,14 @@ required_plugins.each do |plugin|
   exec "vagrant plugin install #{plugin};vagrant #{ARGV.join(" ")}" unless Vagrant.has_plugin? plugin || ARGV[0] == 'plugin'
 end
 
+def python_start
+  command = <<~HEREDOC
+    python /home/ubuntu/app/app.py &
+  HEREDOC
+
+  return command
+end
+
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/xenial64"
   config.vm.network "private_network", ip: "192.168.10.100"
@@ -13,4 +21,5 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "python::default"
     chef.version = '14.12.9'
   end
+  config.vm.provision "shell", inline: python_start(), privileged: false
 end
