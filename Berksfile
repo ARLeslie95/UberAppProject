@@ -3,6 +3,6 @@ source 'https://supermarket.chef.io'
 
 cookbook 'python', git: 'https://github.com/aehussey/Chef-Python-Cookbook'
 
-cookbook 'nginx_reverse_proxy', git: 'https://github.com/aehussey/Chef-Nginx-Reverse-proxy'
+cookbook 'node', git: 'https://github.com/ARLeslie95/NginxReverseProxyCookbook.git'
 
 metadata

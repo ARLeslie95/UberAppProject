@@ -15,7 +15,7 @@ app.secret_key = os.urandom(24)
 
 sslify = SSLify(app)
 
-with open('config.json') as f:
+with open('/home/ubuntu/app/config.json') as f:
     config = json.load(f)
 
 
