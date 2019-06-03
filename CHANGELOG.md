@@ -72,6 +72,7 @@
 - Research & testing to get chef to accept the license when creating a AMI
 - Created a AMI
 - Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
+- Created a instance on AWS to run the app in the cloud using the new AMI
 
 ## James Bachen
 #### Day 1
