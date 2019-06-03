@@ -18,6 +18,7 @@
 #### Day 3
 
 - Started work on Jenkins to create the 'dev push' job
+- Research on Jenkins logging
 
 ## Arthur Hussey
 #### Day 1
@@ -36,6 +37,7 @@
 #### Day 3
 
 - Created the packer.json File
+- Research on Jenkins logging
 
 
 ## Kirt Morgan
@@ -68,3 +70,4 @@
 
 - Team project catch up brief with Arthur
 - Chef licence research.  
+- Jenkins Research
