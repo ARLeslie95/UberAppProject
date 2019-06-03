@@ -6,10 +6,12 @@
     instance_type: t2.micro
     subnet_id: subnet-0e9b6138ff1ce18f2
     associate_public_ip: true
+    chef_license: accept-no-persist
 
 
   verifier:
     name: inspec
+    chef_license: accept-no-persist
 
   platforms:
     name: ubuntu-18.04
@@ -23,4 +25,5 @@
     verifier:
       inspec_tests:
         - test/integration/default
+      chef_license: accept-no-persist
   attributes:

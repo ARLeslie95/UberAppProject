@@ -12,10 +12,10 @@
     "source_ami_filter" : {
       "filters": {
         "virtualization-type" : "hvm",
-        "name": "ubuntu/images/hvm-ssd/*ubuntu-xenial-18.04-amd64-server-*",
+        "name": "ubuntu/images/hvm-ssd/*ubuntu-xenial-16.04-amd64-server-*",
         "root-device-type": "ebs"
                   },
-      "owners": ["135928476890"],
+      "owners": ["099720109477"],
       "most_recent": true
     },
     "instance_type": "t2.micro",
@@ -26,11 +26,13 @@
     {
       "type": "chef-solo",
       "cookbook_paths": ["./cookbooks"],
+      "install_command": "curl -L https://omnitruck.chef.io/install.sh | sudo bash -s -- -v 13.3.42",
       "run_list": ["node::default"]
     },
     {
       "type": "chef-solo",
       "cookbook_paths": ["./cookbooks"],
+      "install_command": "curl -L https://omnitruck.chef.io/install.sh | sudo bash -s -- -v 13.3.42",
       "run_list": ["python::default"]
     },
     {
@@ -41,5 +43,9 @@
       "type": "file",
       "source": "app/",
       "destination": "/home/ubuntu/app"
+    },
+    {
+      "type": "shell",
+      "inline": "pm2 start /home/ubuntu/app/app.py"
     }]
 }
