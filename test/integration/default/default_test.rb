@@ -2,8 +2,6 @@
 
 # The InSpec reference, with examples and extensive documentation, can be
 # found at http://inspec.io/docs/reference/resources/
-<<<<<<< HEAD
-=======
 
 describe package ('python3') do
   it { should be_installed }
@@ -57,4 +55,3 @@ describe pip('Flask-SSLify') do
   it { should be_installed }
   its('version') { should eq '0.1.4' }
 end
->>>>>>> 7afbf6f2a0bd21a4029547a6ea2ae46fcbbf0ce9
