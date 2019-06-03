@@ -1,9 +1,10 @@
 ---
   driver:
     name: ec2
-    region: eu-west-1
+    region: eu-west-2
     require_chef_omnibus: true
     instance_type: t2.micro
+    subnet_id: subnet-0e9b6138ff1ce18f2
     associate_public_ip: true
 
 
