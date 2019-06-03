@@ -21,5 +21,5 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "python::default"
     chef.version = '14.12.9'
   end
-  # config.vm.provision "shell", inline: python_start(), privileged: false
+  config.vm.provision "shell", inline: python_start(), privileged: false
 end
