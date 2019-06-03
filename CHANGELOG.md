@@ -19,6 +19,8 @@
 
 - Started work on Jenkins to create the 'dev push' job
 - Research on Jenkins logging
+- Research on Jenkins git merging
+- Configured 1st Jenkins job to merge without tests from 'dev' to 'master'
 
 ## Arthur Hussey
 #### Day 1
@@ -38,6 +40,7 @@
 
 - Created the packer.json File
 - Research on Jenkins logging
+- Research on Jenkins git merging
 
 
 ## Kirt Morgan
@@ -56,6 +59,7 @@
 
 - Completed the readme with in-depth content on the project.
 - Created the project changelog file to monitor the team activities.
+- Research on Jenkins git merging
 
 ## James Bachen
 #### Day 1
