@@ -62,6 +62,7 @@
 - Completed the readme with in-depth content on the project.
 - Created the project changelog file to monitor the team activities.
 - Research on Jenkins git merging
+- Updating the Changelog document as tasks are started and completed
 
 ## James Bachen
 #### Day 1
