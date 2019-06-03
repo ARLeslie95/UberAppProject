@@ -77,4 +77,4 @@
 
 - Team project catch up brief with Arthur
 - Chef licence research.  
-- Jenkins Research.
+- Jenkins Research. l
