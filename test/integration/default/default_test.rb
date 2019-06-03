@@ -55,3 +55,16 @@ describe pip('Flask-SSLify') do
   it { should be_installed }
   its('version') { should eq '0.1.4' }
 end
+describe package ('nginx') do
+  it { should be_installed }
+end
+describe service "nginx" do
+  it { should be_running }
+  it { should be_enabled }
+end
+describe port(80) do
+  it { should be_listening }
+end
+describe http('http://localhost', enable_remote_worker: true) do
+  its('status') { should cmp 502 }
+end
