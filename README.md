@@ -28,4 +28,4 @@ This is what happens when you make changes and push to the 'dev' branch.
 - Jenkins then runs the code against the written tests.
 - If the code passes then it is automatically merged to master.
 - A second Jenkins job is activated on completion of the last.
-- Jenkins then interacts with Amazon Web Services and creates a Amazon Machine Image. 
+- Jenkins then interacts with Amazon Web Services and creates a Amazon Machine Image. k
