@@ -23,6 +23,8 @@
 - Configured 1st Jenkins job to merge without tests from 'dev' to 'master'
 - Writing tests that the 'dev' branch will have to pass before it is merged
 - Research & testing to get chef to accept the license when creating a AMI
+- Created a AMI
+- Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
 
 ## Arthur Hussey
 #### Day 1
@@ -45,6 +47,8 @@
 - Research on Jenkins git merging
 - Collaborating with Aaron to write tests.
 - Research & testing to get chef to accept the license when creating a AMI
+- Created a AMI
+- Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
 
 
 ## Kirt Morgan
@@ -66,6 +70,8 @@
 - Research on Jenkins git merging
 - Updating the Changelog document as tasks are started and completed
 - Research & testing to get chef to accept the license when creating a AMI
+- Created a AMI
+- Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
 
 ## James Bachen
 #### Day 1
@@ -82,3 +88,4 @@
 - Chef licence research.  
 - Jenkins Research.
 - Research & testing to get chef to accept the license when creating a AMI
+- Created a AMI
