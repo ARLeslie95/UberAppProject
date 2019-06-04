@@ -8,8 +8,8 @@
 
 #### Day 2
 - Added code to the Berksfile
-- Added code to the kicthen.yml File.
-- Added code to the vagrant.yml File.
+- Added code to the kitchen.yml File.
+- Added code to the Vagrant File.
 - Merged the two completed cookbooks into the project.
 - Worked on the nginx cookbook & completed it.
 - Testing of the app and debugging vm errors.
@@ -104,4 +104,4 @@
 
 #### Day 4
 
-- 
+-
