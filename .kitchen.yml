@@ -15,7 +15,7 @@ verifier:
   chef_license: accept-no-persist
 
 platforms:
-  - name: ubuntu-18.04
+  - name: ubuntu-16.04
 
 suites:
   - name: default
