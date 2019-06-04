@@ -21,7 +21,7 @@ Your job is to create working development, testing and production environments a
 - Create a second Jenkins job that makes a AMI (Amazon Machine Image) - :white_check_mark:
 - Confirm AMI has been made on AWS(Amazon Web Services) - :white_check_mark:
 - (Optional Task) Create a AWS instance manually and run the app within the cloud :white_check_mark:
-- (Optional Task) Have Jenkins use the new AMI to make a instance :red_circle:
+- (Optional Task) Have Jenkins use the new AMI to make a instance - :red_circle:
 
 ## How to Install :computer:
 - To begin, clone the GitHub repository [HERE](https://github.com/ARLeslie95/UberAppProject)
