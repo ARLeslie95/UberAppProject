@@ -6,7 +6,7 @@
 #
 require 'spec_helper'
 
-describe 'UberAppProject::default' do
+# describe 'UberAppProject::default' do
 
   # context 'When all attributes are default, on Ubuntu 18.04' do
     # let(:chef_run) do
@@ -68,4 +68,4 @@ describe 'UberAppProject::default' do
 #     end
 #
   # end
-end
+# end
