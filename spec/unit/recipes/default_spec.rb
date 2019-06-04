@@ -44,9 +44,7 @@ describe 'UberAppProject::default' do
     it 'should delete the symlink from the default config in sites-enabled' do
       expect(chef_run).to delete_link "/etc/nginx/sites-enabled/default"
     end
-    it 'converges successfully' do
-    expect { chef_run }.to_not raise_error
-    end
+  
     it 'runs apt get update' do
       expect(chef_run).to update_apt_update 'update'
     end
@@ -62,7 +60,6 @@ describe 'UberAppProject::default' do
     it 'should upgrade python-pip' do
       expect(chef_run).to upgrade_package('python-pip')
     end
-<<<<<<< HEAD
 
     it 'should enable pip install' do
       expect(chef_run).to enable_service "pip install"
@@ -78,8 +75,5 @@ describe 'UberAppProject::default' do
     end
     at_exit { ChefSpec::Coverage.report! }
 
-=======
-    # at_exit { ChefSpec::Coverage.report!
->>>>>>> 414ad830ef18e9e8108bc64dbfb3eb1dad9702af
   end
 end
