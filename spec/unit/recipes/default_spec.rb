@@ -1,13 +1,22 @@
-# #
-# # Cookbook:: UberAppProject
-# # Spec:: default
-# #
-# # Copyright:: 2019, The Authors, All Rights Reserved.
 #
+<<<<<<< HEAD
 require 'spec_helper'
 
 
 describe 'UberAppProject::default' do
+=======
+# Cookbook:: UberAppProject
+# Spec:: default
+#
+# Copyright:: 2019, The Authors, All Rights Reserved.
+#
+# frozen_string_literal: true
+require 'chefspec'
+require 'chefspec/berkshelf'
+
+describe 'UberAppProject::default' do
+
+>>>>>>> 20b35fb4b495493563fbb7458f7bf519d5377dac
   context 'When all attributes are default, on Ubuntu 18.04' do
     let(:chef_run) do
       # for a complete list of available platforms and versions see:
@@ -66,6 +75,7 @@ describe 'UberAppProject::default' do
     it 'should execute pip install' do
       expect(chef_run).to run_execute('pip install')
     end
+<<<<<<< HEAD
     it 'installs nodejs-apt-transport-https' do
     expect(chef_run).to install_package('nodejs-apt-transport-https')
     end
@@ -79,5 +89,8 @@ describe 'UberAppProject::default' do
     it 'installs nodejs' do
       expect(chef_run).to install_package('nodejs')
     end
+=======
+
+>>>>>>> 20b35fb4b495493563fbb7458f7bf519d5377dac
   end
 end
