@@ -5,11 +5,10 @@
 # Copyright:: 2019, The Authors, All Rights Reserved.
 #
 require 'spec_helper'
-#
-#
+
 describe 'UberAppProject::default' do
 
-  context 'When all attributes are default, on Ubuntu 18.04' do
+  # context 'When all attributes are default, on Ubuntu 18.04' do
     # let(:chef_run) do
     #   # for a complete list of available platforms and versions see:
     #   # https://github.com/customink/fauxhai/blob/master/PLATFORMS.md
@@ -68,5 +67,5 @@ describe 'UberAppProject::default' do
 #       expect(chef_run).to run_execute('pip install')
 #     end
 #
-  end
+  # end
 end
