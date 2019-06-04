@@ -4,7 +4,9 @@
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 #
-# require 'spec_helper'
+# frozen_string_literal: true
+require 'chefspec'
+require 'chefspec/berkshelf'
 
 describe 'UberAppProject::default' do
 
