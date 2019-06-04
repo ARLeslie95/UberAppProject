@@ -7,11 +7,11 @@
 require 'spec_helper'
 
 describe 'UberAppProject::default' do
-  context 'When all attributes are default, on Ubuntu 16.04' do
+  context 'When all attributes are default, on Ubuntu 18.04' do
     let(:chef_run) do
       # for a complete list of available platforms and versions see:
       # https://github.com/customink/fauxhai/blob/master/PLATFORMS.md
-      runner = ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '16.04')
+      runner = ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '18.04')
       runner.converge(described_recipe)
     end
 
@@ -54,6 +54,19 @@ describe 'UberAppProject::default' do
     end
     it 'should upgrade python-pip' do
       expect(chef_run).to upgrade_package('python-pip')
+    end
+    it 'installs nodejs-apt-transport-https' do
+      expect(chef_run).to install_package('nodejs-apt-transport-https')
+    end
+    it 'creates apt-repository nodejs' do
+      expect(chef_run).to add_apt_repository('node.js').with(
+        uri: 'https://deb.nodesource.com/node_8.x',
+        keyserver: 'keyserver.ubuntu.com',
+        key: ['1655a0ab68576280']
+      )
+    end
+    it 'installs nodejs' do
+      expect(chef_run).to install_package('nodejs')
     end
     # at_exit { ChefSpec::Coverage.report!
   end
