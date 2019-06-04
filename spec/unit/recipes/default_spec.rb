@@ -55,6 +55,6 @@ describe 'UberAppProject::default' do
     it 'should upgrade python-pip' do
       expect(chef_run).to upgrade_package('python-pip')
     end
-    # at_exit { ChefSpec::Coverage.report! }
+    # at_exit { ChefSpec::Coverage.report! 
   end
 end
