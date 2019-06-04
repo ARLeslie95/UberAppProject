@@ -9,19 +9,18 @@
 
   verifier:
     name: inspec
-    chef_license: accept-no-persist
+
 
   platforms:
-    name: ubuntu-16.04
-    driver:
+    - name: ubuntu-18.04
+      driver:
       box: ubuntu/xenial64
 
   suites:
-    name: default
+    - name: default
     run_list:
       - recipe[UberAppProject::default]
     verifier:
       inspec_tests:
         - test/integration/default
-      chef_license: accept-no-persist
   attributes:
