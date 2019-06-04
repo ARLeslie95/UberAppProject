@@ -6,6 +6,7 @@
 
 require 'spec_helper'
 
+
 describe 'UberAppProject::default' do
   context 'When all attributes are default, on Ubuntu 16.04' do
     let(:chef_run) do
@@ -34,7 +35,7 @@ describe 'UberAppProject::default' do
     end
     it 'should create a proxy.conf template in /etc/nginx/sites-available' do
     expect(chef_run).to create_template("/etc/nginx/sites-available/proxy.conf").with_variables(proxy_port: 7000)
-  end
+    end
 
     it 'should create a symlink of proxy.conf from sites-available to sites-enabled' do
       expect(chef_run).to create_link("/etc/nginx/sites-enabled/proxy.conf").with_link_type(:symbolic)
@@ -42,6 +43,12 @@ describe 'UberAppProject::default' do
 
     it 'should delete the symlink from the default config in sites-enabled' do
       expect(chef_run).to delete_link "/etc/nginx/sites-enabled/default"
+    end
+    it 'converges successfully' do
+    expect { chef_run }.to_not raise_error
+    end
+    it 'runs apt get update' do
+      expect(chef_run).to update_apt_update 'update'
     end
     it 'should install python3' do
       expect(chef_run).to install_package('python3')
@@ -55,5 +62,20 @@ describe 'UberAppProject::default' do
     it 'should upgrade python-pip' do
       expect(chef_run).to upgrade_package('python-pip')
     end
+
+    it 'should enable pip install' do
+      expect(chef_run).to enable_service "pip install"
+    end
+     it 'should start pip install' do
+      expect(chef_run).to start_service "pip install"
+    end
+    it 'should create a requirements.txt template in /etc/python3/' do
+      expect(chef_run).to create_template("/etc/python3/requirements.txt")
+    end
+    it 'should execute pip install' do
+      expect(chef_run).to run_execute('pip install')
+    end
+    at_exit { ChefSpec::Coverage.report! }
+
   end
 end
