@@ -66,6 +66,18 @@ describe 'UberAppProject::default' do
     it 'should execute pip install' do
       expect(chef_run).to run_execute('pip install')
     end
-
+    it 'installs nodejs-apt-transport-https' do
+    expect(chef_run).to install_package('nodejs-apt-transport-https')
+    end
+    it 'creates apt-repository nodejs' do
+      expect(chef_run).to add_apt_repository('node.js').with(
+        uri: 'https://deb.nodesource.com/node_8.x',
+        keyserver: 'keyserver.ubuntu.com',
+        key: ['1655a0ab68576280']
+      )
+    end
+    it 'installs nodejs' do
+      expect(chef_run).to install_package('nodejs')
+    end
   end
 end

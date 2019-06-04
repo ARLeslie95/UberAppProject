@@ -28,7 +28,8 @@
 
 #### Day 4
 
--
+- Research on kitchen test
+- Jenkins debugging & testing
 
 ## Arthur Hussey
 #### Day 1
@@ -56,7 +57,8 @@
 
 #### Day 4
 
--
+- Research on kitchen test
+- Jenkins debugging & testing
 
 ## Kirt Morgan
 #### Day 1
@@ -83,7 +85,8 @@
 
 #### Day 4
 
--
+- Research on kitchen test
+- Jenkins debugging & testing
 
 ## James Bachen
 #### Day 1
@@ -104,4 +107,5 @@
 
 #### Day 4
 
--
+- Research on kitchen test
+- Jenkins debugging & testing 
