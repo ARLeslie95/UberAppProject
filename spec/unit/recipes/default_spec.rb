@@ -66,7 +66,6 @@ describe 'UberAppProject::default' do
     it 'should execute pip install' do
       expect(chef_run).to run_execute('pip install')
     end
-    at_exit { ChefSpec::Coverage.report! }
 
   end
 end
