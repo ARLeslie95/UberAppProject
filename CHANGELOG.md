@@ -8,8 +8,8 @@
 
 #### Day 2
 - Added code to the Berksfile
-- Added code to the kicthen.yml File.
-- Added code to the vagrant.yml File.
+- Added code to the kitchen.yml File.
+- Added code to the Vagrant File.
 - Merged the two completed cookbooks into the project.
 - Worked on the nginx cookbook & completed it.
 - Testing of the app and debugging vm errors.
@@ -25,6 +25,10 @@
 - Research & testing to get chef to accept the license when creating a AMI
 - Created a AMI
 - Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
+
+#### Day 4
+
+-
 
 ## Arthur Hussey
 #### Day 1
@@ -50,6 +54,9 @@
 - Created a AMI
 - Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
 
+#### Day 4
+
+-
 
 ## Kirt Morgan
 #### Day 1
@@ -74,6 +81,10 @@
 - Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
 - Created a instance on AWS to run the app in the cloud using the new AMI
 
+#### Day 4
+
+-
+
 ## James Bachen
 #### Day 1
 
@@ -90,3 +101,7 @@
 - Jenkins Research.
 - Research & testing to get chef to accept the license when creating a AMI
 - Created a AMI
+
+#### Day 4
+
+-

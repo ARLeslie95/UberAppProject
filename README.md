@@ -16,11 +16,12 @@ Your job is to create working development, testing and production environments a
 - Run the machine and make sure the Uber app is reachable - :white_check_mark:
 - Create a link between Github & Jenkins - :white_check_mark:
 - Create the first Jenkins job that merges to master - :white_check_mark:
-- Create working tests for the merging job - :red_circle:
+- Create working unit tests for the merging job - :white_check_mark:
+- Create working integration tests for the merging job - :red_circle:
 - Create a second Jenkins job that makes a AMI (Amazon Machine Image) - :white_check_mark:
 - Confirm AMI has been made on AWS(Amazon Web Services) - :white_check_mark:
 - (Optional Task) Create a AWS instance manually and run the app within the cloud :white_check_mark:
-- (Optional Task) Have Jenkins use the new AMI to make a instance :red_circle:
+- (Optional Task) Have Jenkins use the new AMI to make a instance - :red_circle:
 
 ## How to Install :computer:
 - To begin, clone the GitHub repository [HERE](https://github.com/ARLeslie95/UberAppProject)
