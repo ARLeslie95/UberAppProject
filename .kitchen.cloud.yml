@@ -6,6 +6,7 @@ driver:
   region: eu-west-1
   require_chef_omnibus: true
   instance_type: t2.micro
+  subnet_id: subnet-07cc9d1bfd023f784
   associate_public_ip: true
   chef_license: accept-no-persist
 
