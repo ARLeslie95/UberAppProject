@@ -11,7 +11,7 @@ verifier:
   chef_license: accept-no-persist
 
 platforms:
-  - name:
+  - name: ubuntu-18.04
     driver:
       box: ubuntu/xenial64
 
