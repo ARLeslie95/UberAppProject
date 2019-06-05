@@ -2,7 +2,7 @@ driver:
   name: ec2
   region: eu-west-1
   require_chef_omnibus: true
-  intance_type: t2.micro
+  instance_type: t2.micro
   associate_public_io: true
   chef_license: accept-no-persist
 transport:
