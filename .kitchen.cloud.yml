@@ -1,29 +1,29 @@
 ---
-  driver:
-    name: ec2
-    region: eu-west-1
-    require_chef_omnibus: true
-    instance_type: t2.micro
-    subnet_id: subnet-0e9b6138ff1ce18f2
-    associate_public_ip: true
-    chef_license: accept-no-persist
+driver:
+  name: ec2
+  region: eu-west-1
+  require_chef_omnibus: true
+  instance_type: t2.micro
+  subnet_id: subnet-0e9b6138ff1ce18f2
+  associate_public_ip: true
+  chef_license: accept-no-persist
 
 
-  verifier:
-    name: inspec
-    chef_license: accept-no-persist
+verifier:
+  name: inspec
+  chef_license: accept-no-persist
 
-  platforms:
-    name: ubuntu-18.04
+platforms:
+  - name: ubuntu-18.04
     driver:
       box: ubuntu/xenial64
 
-  suites:
-    name: default
+suites:
+  - name: default
     run_list:
       - recipe[UberAppProject::default]
     verifier:
       inspec_tests:
         - test/integration/default
       chef_license: accept-no-persist
-  attributes:
+    attributes:
