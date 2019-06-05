@@ -5,6 +5,8 @@ drive:
   intance_type: t2.micro
   associate_public_io: true
   chef_license: accept-no-persist
+  product_name: chef
+  product_version: 13.3.42
 
 verifier:
   name: inspec
