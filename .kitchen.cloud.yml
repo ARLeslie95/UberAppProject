@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 driver:
   name: ec2
   region: eu-west-1
@@ -20,35 +19,10 @@ platforms:
 
 suites:
   - name: default
-=======
-  driver:
-    name: ec2
-    region: eu-west-1
-    require_chef_omnibus: true
-    instance_type: t2.micro
-    chef_license: accept-no-persist
-
-
-  verifier:
-    name: inspec
-
-
-  platforms:
-    - name: ubuntu-18.04
-      driver:
-      box: ubuntu/xenial64
-
-  suites:
-    - name: default
->>>>>>> b84a6d0609197d15f1c1111b3e604e3563cdd674
     run_list:
       - recipe[UberAppProject::default]
     verifier:
       inspec_tests:
         - test/integration/default
-<<<<<<< HEAD
       chef_license: accept-no-persist
     attributes:
-=======
-  attributes:
->>>>>>> b84a6d0609197d15f1c1111b3e604e3563cdd674
