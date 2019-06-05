@@ -3,6 +3,7 @@
 # Spec:: default
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
+require 'chefspec'
 require 'spec_helper'
 
 describe 'UberAppProject::default' do
