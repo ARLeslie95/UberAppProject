@@ -1,22 +1,17 @@
----
-driver:
+drive:
   name: ec2
-  aws_access_key: ""
-  aws_secret_key: ""
   region: eu-west-1
   require_chef_omnibus: true
-  instance_type: t2.micro
-  subnet_id: subnet-07cc9d1bfd023f784
-  associate_public_ip: true
+  intance_type: t2.micro
+  associate_public_io: true
   chef_license: accept-no-persist
-
 
 verifier:
   name: inspec
   chef_license: accept-no-persist
 
 platforms:
-  - name: ubuntu-18.04
+  - name:
     driver:
       box: ubuntu/xenial64
 
