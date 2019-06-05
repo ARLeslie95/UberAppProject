@@ -7,29 +7,32 @@
 - File Structure.
 
 #### Day 2
-- Added code to the Berksfile
+- Added code to the Berksfile.
 - Added code to the kitchen.yml File.
 - Added code to the Vagrant File.
 - Merged the two completed cookbooks into the project.
 - Worked on the nginx cookbook & completed it.
 - Testing of the app and debugging vm errors.
 
-
 #### Day 3
 
-- Started work on Jenkins to create the 'dev push' job
-- Research on Jenkins logging
-- Research on Jenkins git merging
-- Configured 1st Jenkins job to merge without tests from 'dev' to 'master'
-- Writing tests that the 'dev' branch will have to pass before it is merged
-- Research & testing to get chef to accept the license when creating a AMI
-- Created a AMI
-- Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
+- Started work on Jenkins to create the 'dev push' job.
+- Research on Jenkins logging.
+- Research on Jenkins git merging.
+- Configured 1st Jenkins job to merge without tests from 'dev' to 'master'.
+- Writing tests that the 'dev' branch will have to pass before it is merged.
+- Research & testing to get chef to accept the license when creating a AMI.
+- Created a AMI.
+- Created a 2nd Jenkins job that creates a AMI  after the 1st test passes.
 
 #### Day 4
 
-- Research on kitchen test
-- Jenkins debugging & testing
+- Research on kitchen test.
+- Jenkins debugging & testing.
+
+#### Day 5
+
+- Research & testing on the integration tests, reworking code.
 
 ## Arthur Hussey
 #### Day 1
@@ -47,18 +50,22 @@
 
 #### Day 3
 
-- Created the packer.json File
-- Research on Jenkins logging
-- Research on Jenkins git merging
+- Created the packer.json File.
+- Research on Jenkins logging.
+- Research on Jenkins git merging.
 - Collaborating with Aaron to write tests.
-- Research & testing to get chef to accept the license when creating a AMI
-- Created a AMI
-- Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
+- Research & testing to get chef to accept the license when creating a AMI.
+- Created a AMI.
+- Created a 2nd Jenkins job that creates a AMI  after the 1st test passes.
 
 #### Day 4
 
-- Research on kitchen test
-- Jenkins debugging & testing
+- Research on kitchen test.
+- Jenkins debugging & testing.
+
+#### Day 5
+
+- Research & testing on the integration tests, reworking code.
 
 ## Kirt Morgan
 #### Day 1
@@ -76,36 +83,44 @@
 
 - Completed the readme with in-depth content on the project.
 - Created the project changelog file to monitor the team activities.
-- Research on Jenkins git merging
-- Updating the Changelog document as tasks are started and completed
-- Research & testing to get chef to accept the license when creating a AMI
-- Created a AMI
-- Created a 2nd Jenkins job that creates a AMI  after the 1st test passes
-- Created a instance on AWS to run the app in the cloud using the new AMI
+- Research on Jenkins git merging.
+- Updating the Changelog document as tasks are started and completed.
+- Research & testing to get chef to accept the license when creating a AMI.
+- Created a AMI.
+- Created a 2nd Jenkins job that creates a AMI  after the 1st test passes.
+- Created a instance on AWS to run the app in the cloud using the new AMI.
 
 #### Day 4
 
-- Research on kitchen test
-- Jenkins debugging & testing
+- Research on kitchen test.
+- Jenkins debugging & testing.
+
+#### Day 5
+
+- Research & testing on the integration tests, reworking code.
 
 ## James Bachen
 #### Day 1
 
-- Off Sick
+- Off Sick.
 
 #### Day 2
 
-- Off Sick
+- Off Sick.
 
 #### Day 3
 
-- Team project catch up brief with Arthur
+- Team project catch up brief with Arthur.
 - Chef licence research.  
 - Jenkins Research.
-- Research & testing to get chef to accept the license when creating a AMI
-- Created a AMI
+- Research & testing to get chef to accept the license when creating a AMI.
+- Created a AMI.
 
 #### Day 4
 
-- Research on kitchen test
-- Jenkins debugging & testing 
+- Research on kitchen test.
+- Jenkins debugging & testing.
+
+#### Day 5
+
+- Research & testing on the integration tests, reworking code.
