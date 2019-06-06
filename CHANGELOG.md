@@ -33,6 +33,7 @@
 #### Day 5
 
 - Research & testing on the integration tests, reworking code.
+- Jenkins final testing
 
 ## Arthur Hussey
 #### Day 1
@@ -66,6 +67,7 @@
 #### Day 5
 
 - Research & testing on the integration tests, reworking code.
+- Jenkins final testing
 
 ## Kirt Morgan
 #### Day 1
@@ -98,6 +100,7 @@
 #### Day 5
 
 - Research & testing on the integration tests, reworking code.
+- Jenkins final testing
 
 ## James Bachen
 #### Day 1
@@ -123,4 +126,9 @@
 
 #### Day 5
 
+<<<<<<< HEAD
 - Research & testing on the integration tests, reworking code. ss
+=======
+- Research & testing on the integration tests, reworking code.
+- Jenkins final testing
+>>>>>>> 5a4b5870e6068bf2c5c71b89f00cc4f3db3eb17a
