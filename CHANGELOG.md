@@ -126,9 +126,4 @@
 
 #### Day 5
 
-<<<<<<< HEAD
-- Research & testing on the integration tests, reworking code. ss
-=======
-- Research & testing on the integration tests, reworking code.
-- Jenkins final testing
->>>>>>> 5a4b5870e6068bf2c5c71b89f00cc4f3db3eb17a
+- Research & testing on the integration tests, reworking code. 
